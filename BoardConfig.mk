@@ -35,7 +35,4 @@ BOARD_VOLD_CRYPTFS_MIGRATE := true
 TARGET_RECOVERY_FSTAB := device/oppo/find7-common/rootdir/etc/unified/fstab.qcom
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := FIND7,find7,find7s,find7u
-
-# inherit from the proprietary version
--include vendor/oppo/find7/BoardConfigVendor.mk
+TARGET_OTA_ASSERT_DEVICE := FIND7,find7,find7s,find7su
